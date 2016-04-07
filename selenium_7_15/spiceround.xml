@@ -1,0 +1,8 @@
+<suite name="one way">
+    <test name="spice results">
+        <classes>
+            <class name="Datadriven.Spice_one">
+                </class>
+                </classes>
+                </test>
+                </suite>

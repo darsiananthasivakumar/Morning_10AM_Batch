@@ -1,0 +1,27 @@
+<suite name="grid" parallel="tests" >
+    <test name="firefox result">
+        <classes>
+            <parameter name="browser" value="firefox">
+            <class name="Hybrid_Fw.All_browsers">
+                </class>
+                </parameter>
+                </classes>
+                </test>
+                <test name="chrome result">
+               <classes>
+               <parameter name="browser" value="chrome">
+                <class name="Hybrid_Fw.All_browsers">
+                </class>
+                </parameter>
+                </classes>
+                </test>
+                <test name="ie result">
+               <classes>
+               <parameter name="browser" value="ie">
+                <class name="Hybrid_Fw.All_browsers">
+                </class>
+                </parameter>
+                </classes>
+                </test>
+                
+                </suite>

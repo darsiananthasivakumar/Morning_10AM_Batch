@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HMS" duration-ms="29894" started-at="2015-07-16T05:51:29Z" finished-at="2015-07-16T05:51:59Z">
+    <groups>
+    </groups>
+    <test name="HMS result" duration-ms="29894" started-at="2015-07-16T05:51:29Z" finished-at="2015-07-16T05:51:59Z">
+      <class name="Com.hms1.hms_rg">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Com.hms1.hms_rg@4f124609]" name="beforeTest" is-config="true" duration-ms="16745" started-at="2015-07-16T11:21:29Z" finished-at="2015-07-16T11:21:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="RG()[pri:0, instance:Com.hms1.hms_rg@4f124609]" name="RG" duration-ms="13118" started-at="2015-07-16T11:21:46Z" finished-at="2015-07-16T11:21:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RG -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Com.hms1.hms_rg@4f124609]" name="afterTest" is-config="true" duration-ms="1" started-at="2015-07-16T11:21:59Z" finished-at="2015-07-16T11:21:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Com.hms1.hms_rg -->
+    </test> <!-- HMS result -->
+  </suite> <!-- HMS -->
+</testng-results>

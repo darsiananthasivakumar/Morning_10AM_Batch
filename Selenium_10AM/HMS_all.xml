@@ -1,0 +1,17 @@
+<suite name="HMS">
+<test name="HMS results">
+<classes>
+<class name="Data_driven.HMS"/>
+</classes>
+</test>
+<test name="spiceone Results">
+<classes>
+<class name="Data_driven.Spicejet_oneway_driven"/>
+</classes>
+</test>
+<test name="round spice">
+<classes>
+<class name="Data_driven.spicejet_round_driven"/>
+</classes>
+</test>
+</suite>

@@ -1,0 +1,12 @@
+<suite name="bookfilght">
+  <test name="spice jet result">
+   <classes>
+   <class name="Examples_TestNg.Spicejet_bookafilght_TCS">
+     <Methods>
+     <include name="verifyoneway"/>
+      <include name="verifyRoundtrip"/>
+                    </Methods>
+                    </class>
+                    </classes>
+                    </test>
+                    </suite>

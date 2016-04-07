@@ -1,0 +1,8 @@
+<suite name="HMS">
+    <test name="HMS result">
+        <classes>
+            <class name="Com.hms1.hms_rg">
+                </class>
+                </classes>
+                </test>
+                </suite>

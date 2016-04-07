@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [bookfilght]">
+  <test name="spice jet result(failed)">
+    <classes>
+      <class name="Examples_TestNg.Spicejet_bookafilght_TCS">
+        <methods>
+          <include name="afterTest"/>
+          <include name="test22"/>
+          <include name="beforeTest"/>
+          <include name="test24"/>
+          <include name="test23"/>
+          <include name="test25"/>
+        </methods>
+      </class> <!-- Examples_TestNg.Spicejet_bookafilght_TCS -->
+    </classes>
+  </test> <!-- spice jet result(failed) -->
+</suite> <!-- Failed suite [bookfilght] -->

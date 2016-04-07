@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;selenium_7_15/spiceone.xml&apos; to &apos;spiceone1.xml&apos;" description="Rename resource &apos;spiceone.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="spiceone.xml" name="spiceone1.xml" stamp="1437731375247" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;selenium_7_15/spiceone1.xml&apos; to &apos;spiceround.xml&apos;" description="Rename resource &apos;spiceone1.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="spiceone1.xml" name="spiceround.xml" stamp="1437731801773" updateReferences="true"/>
+</session>

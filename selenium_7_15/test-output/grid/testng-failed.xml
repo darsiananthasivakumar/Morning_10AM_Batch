@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [grid]" parallel="tests">
+  <parameter name="browser" value="ie"/>
+  <test name="ie result(failed)" parallel="tests">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="Hybrid_Fw.All_browsers">
+        <methods>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- Hybrid_Fw.All_browsers -->
+    </classes>
+  </test> <!-- ie result(failed) -->
+  <test name="firefox result(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="Hybrid_Fw.All_browsers">
+        <methods>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- Hybrid_Fw.All_browsers -->
+    </classes>
+  </test> <!-- firefox result(failed) -->
+</suite> <!-- Failed suite [grid] -->

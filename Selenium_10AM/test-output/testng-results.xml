@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="60788" started-at="2015-08-17T03:10:03Z" finished-at="2015-08-17T03:11:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="60788" started-at="2015-08-17T03:10:03Z" finished-at="2015-08-17T03:11:03Z">
+      <class name="Io_stream.OR_IO_Stream">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Io_stream.OR_IO_Stream@12bc6874]" name="beforeTest" is-config="true" duration-ms="52941" started-at="2015-08-16T20:10:03Z" finished-at="2015-08-16T20:10:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="OR_ObjectRepositry()[pri:0, instance:Io_stream.OR_IO_Stream@12bc6874]" name="OR_ObjectRepositry" duration-ms="7379" started-at="2015-08-16T20:10:55Z" finished-at="2015-08-16T20:11:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OR_ObjectRepositry -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:Io_stream.OR_IO_Stream@12bc6874]" name="logout" duration-ms="437" started-at="2015-08-16T20:11:03Z" finished-at="2015-08-16T20:11:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Io_stream.OR_IO_Stream@12bc6874]" name="afterTest" is-config="true" duration-ms="0" started-at="2015-08-16T20:11:03Z" finished-at="2015-08-16T20:11:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Io_stream.OR_IO_Stream -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HMS RESULTS]">
+  <test name="spiceround(failed)">
+    <classes>
+      <class name="Data_driven.spicejet_round_driven">
+        <methods>
+          <include name="f"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Data_driven.spicejet_round_driven -->
+      <class name="Data_driven.Spicejet_oneway_driven">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Data_driven.Spicejet_oneway_driven -->
+      <class name="Data_driven.HMS">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Data_driven.HMS -->
+    </classes>
+  </test> <!-- spiceround(failed) -->
+  <test name="spiceoneway(failed)">
+    <classes>
+      <class name="Data_driven.spicejet_round_driven">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Data_driven.spicejet_round_driven -->
+      <class name="Data_driven.Spicejet_oneway_driven">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="oneway"/>
+        </methods>
+      </class> <!-- Data_driven.Spicejet_oneway_driven -->
+      <class name="Data_driven.HMS">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Data_driven.HMS -->
+    </classes>
+  </test> <!-- spiceoneway(failed) -->
+</suite> <!-- Failed suite [HMS RESULTS] -->
